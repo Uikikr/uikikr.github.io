@@ -14,8 +14,8 @@ h1 {
 }
 
 #startpic {
-  height: 750px;
-  width: 1125px;
+  height: 400px;
+  width: auto;
 }
 /*Header*/
 
@@ -44,7 +44,7 @@ h1 {
 }
 
 .frontPic {
-  height: 400px;
+  height: auto;
   width: auto;
 }
 /*Call to arms section*/
