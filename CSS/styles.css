@@ -1,9 +1,18 @@
-Body {
-  font-family: "Oxygen", sans-serif;
-}
 h1 {
   font-family: "Oxygen";
 }
+
+h2 {
+  font-family: "Cobin";
+  font-weight: 500;
+  font-size: 50px;
+}
+
+#bodytext {
+  font-family: "Cobin";
+  font-size: 22px !important;
+}
+
 .container-fluid {
   padding: 2% 2%;
 }
@@ -54,6 +63,7 @@ h1 {
   padding-bottom: 4%;
 }
 
+/*Pictures*/
 .headShot {
   width: 300px;
   height: 300px;
