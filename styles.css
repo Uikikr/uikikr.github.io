@@ -17,6 +17,17 @@ h1 {
   height: 750px;
   width: 1125px;
 }
+
+.banner-image {
+  background-image: url("img/Background-01.jpg");
+  background-color: #cccccc;
+  /*height: 500px;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 /*Header*/
 
 .navbar {
