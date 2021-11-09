@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -51,8 +51,8 @@
       content="A podcast where an archeologist watch Ancient Aliens"
     />
   </head>
-
   <body>
+    <!--JavaScript Plugins-->
     <!--Bootstrap JS-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -107,103 +107,213 @@
     >
     <!-- End Cookie Consent by https://www.CookieConsent.com -->
 
-    <section id="title">
-      <!-- class="banner-image"-->
-      <div class="container-fluid">
-        <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"
-              >Digging up Ancient Aliens!</a
-            >
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-              class="collapse navbar-collapse justify-content-end"
-              id="navbarNavDropdown"
-            >
-              <ul class="TextBar navbar-nav">
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="index.html"
-                    id="navbarDropdownMenuLink"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Episodes
-                  </a>
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
-                  >
-                    <li>
-                      <a class="dropdown-item" href="episodes.html">Archive</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="bonus.html"
-                        >Bonus Content</a
-                      >
-                    </li>
-                  </ul>
-                </li>
+    <!--JavaScript END-->
+    <!--Navbar-->
+    <div class="container">
+      <header
+        class="
+          d-flex
+          flex-wrap
+          align-items-center
+          justify-content-center justify-content-md-between
+          py-3
+          mb-4
+          border-bottom
+        "
+      >
+        <a
+          href="/"
+          class="
+            d-flex
+            align-items-center
+            col-md-3
+            mb-2 mb-md-0
+            text-dark text-decoration-none
+          "
+        >
+          <svg
+            class="bi me-2"
+            width="40"
+            height="32"
+            role="img"
+            aria-label="Digging Up Ancient Aliens"
+          >
+            <use xlink:href="#DiggingUpAncientAlienss"></use>
+          </svg>
+        </a>
 
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="about.html"
-                    >About</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </section>
-    <!-- Main content - List first five episodes -->
-    <!--<section id="content">
-      <div class="text-center">
-        <img src="img/showad_1.jpg" class="img-fluid" alt="" />
-      </div>
-    </section>-->
-    <div
-      style="
-        width: 100%;
-        height: 200px;
-        margin-bottom: 20px;
-        border-radius: 6px;
-        overflow: hidden;
-      "
-    >
-      <iframe
-        style="width: 100%; height: 200px"
-        frameborder="no"
-        scrolling="no"
-        seamless
-        src="https://player.captivate.fm/episode/dac53272-f014-4f4a-a1b3-ff80c78caee5"
-      ></iframe>
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li>
+            <a href="index.html" class="nav-link px-2 link-secondary">Home</a>
+          </li>
+          <li>
+            <a href="episodes.html" class="nav-link px-2 link-dark">Episodes</a>
+          </li>
+          <li>
+            <a href="bonus.html" class="nav-link px-2 link-dark"
+              >Extra content</a
+            >
+          </li>
+          <li>
+            <a href="about.html" class="nav-link px-2 link-dark">About</a>
+          </li>
+          <li>
+            <a href="contact.html" class="nav-link px-2 link-dark">Contact</a>
+          </li>
+        </ul>
+
+        <div class="col-md-3 text-end">
+          <a
+            class="btn btn-outline-primary me-2"
+            href="https://www.facebook.com/Digging-up-Ancient-Aliens-108173641647111/"
+            target="_blank"
+            aria-label="Facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            class="btn btn-outline-primary me-2"
+            href="https://www.instagram.com/digging_up_ancient_aliens/"
+            target="_blank"
+            aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            class="btn btn-outline-primary me-2"
+            href="https://podcasts.apple.com/us/podcast/digging-up-ancient-aliens/id1593769356"
+            target="_blank"
+            aria-label="Apple Podcast"
+            ><i class="fas fa-podcast"></i>
+          </a>
+        </div>
+      </header>
     </div>
-    <picture id="center-image">
-      <source media="(min-width:650px)" srcset="img/banner-large.webp" />
-      <source media="(min-width:465px)" srcset="img/small-banner.webp" />
+    <!--End NavBar-->
+    <!--Latest Episode-->
+    <main class="container">
+      <div class="p-4 p-md-5 mb-4 rounded banner-image">
+        <div class="col-md-auto px-0">
+          <h1 class="display-4">Latest episode</h1>
+          <div
+            style="
+              width: 100%;
+              height: 200px;
+              margin-bottom: 20px;
+              border-radius: 6px;
+              overflow: hidden;
+            "
+          >
+            <iframe
+              style="width: 100%; height: 200px"
+              frameborder="no"
+              scrolling="no"
+              seamless
+              src="https://player.captivate.fm/episode/dac53272-f014-4f4a-a1b3-ff80c78caee5"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--Previous Episodes-->
+    <!--Temp plug for launch date-->
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="img/startbanner_medium.jpg"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">
+            I'm sorry but we're not live just yet!
+          </h1>
+          <p class="lead">
+            Hey you! It's swell to have you hear but we're not releasing any
+            full episodes until December 7. But we will release three(!) full
+            episodes then! How about that? And you know what? Look out for a
+            bonus episode that should drop mid november. Or shall we call it a
+            preppisode?
+          </p>
+          <p class="lead">
+            I'm sorry for the pun, but check down below for social media links
+            to keep yourself updated!
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--Social media hero-->
+    <div class="px-4 py-5 my-5 text-center pt-3">
       <img
-        src="img/small-banner.webp"
-        alt="Premiere Poster 7 December"
-        style="width: 100%"
+        class="bd-placeholder-img rounded-circle"
+        src="img/headshot.webp"
+        alt=""
+        width="140"
+        height="140"
       />
-    </picture>
+      <h1 class="display-5 fw-bold">Let's keep in touch!</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          I really do enjoy having you here and I would like to keep the
+          connection. I’m regulary posting on most of the social media sites.
+          Follow me there and join in the discussion!
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a
+            class="btn btn-primary btn-lg px-4 gap-3"
+            href="https://www.facebook.com/Digging-up-Ancient-Aliens-108173641647111/"
+            target="_blank"
+            aria-label="Facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            class="btn btn-primary btn-lg px-4 gap-3"
+            href="https://twitter.com/DUAncientAliens"
+            target="_blank"
+            aria-label="Twitter"
+            ><i class="fab fa-twitter"></i>
+          </a>
+          <a
+            class="btn btn-primary btn-lg px-4 gap-3"
+            href="https://www.instagram.com/digging_up_ancient_aliens/"
+            target="_blank"
+            aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            class="btn btn-primary btn-lg px-4 gap-3"
+            href="https://www.tiktok.com/@digging_up_ancient_alien"
+            target="_blank"
+            aria-label="tiktok"
+            ><i class="fab fa-tiktok"></i
+          ></a>
+          <a
+            class="btn btn-primary btn-lg px-4 gap-3"
+            href="https://podcasts.apple.com/us/podcast/digging-up-ancient-aliens/id1593769356"
+            target="_blank"
+            aria-label="Apple Podcast"
+            ><i class="fas fa-podcast"></i>
+          </a>
+          <a
+            class="btn btn-primary btn-lg px-4 gap-3"
+            href="https://www.youtube.com/channel/UCM7oHt82IYXWd2R5Jlaz8cg"
+            target="_blank"
+            aria-label="YouTube"
+            ><i class="fab fa-youtube"></i>
+          </a>
+          <a
+            class="btn btn-primary btn-lg px-4 gap-3"
+            href="https://feeds.captivate.fm/digging-up-ancient-aliens/"
+            target="_blank"
+            aria-label="RSS-Feed"
+            ><i class="fas fa-rss"></i>
+          </a>
+        </div>
+      </div>
+    </div>
     <!--Footer-->
     <div class="container">
       <footer
@@ -302,10 +412,10 @@
             <a href="legal.html" class="nav-link px-2 text-muted">Legal</a>
           </li>
           <!--<li class="nav-item">
-            <a href="#" id="open_preferences_center"
-              >Change your cookie preferences</a
-            >
-          </li>-->
+              <a href="#" id="open_preferences_center"
+                >Change your cookie preferences</a
+              >
+            </li>-->
         </ul>
       </footer>
     </div>

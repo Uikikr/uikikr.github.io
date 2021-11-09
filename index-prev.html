@@ -12,12 +12,6 @@
       href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400;1,500&display=swap"
-      rel="stylesheet"
-    />
     <!--fontawesome-->
     <script
       src="https://kit.fontawesome.com/d1849790b9.js"
@@ -30,11 +24,16 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!--Coockie banner-->
+    <script
+      type="text/javascript"
+      src="https://cookieconsent.com/releases/4.0.0/cookie-consent.js"
+    ></script>
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-QK786ZE3TQ"
     ></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -44,18 +43,16 @@
 
       gtag("config", "G-QK786ZE3TQ");
     </script>
+    <!--SEO META-->
     <link rel="icon" href="img/Tab-Icon.png" />
-    <title>About - Digging up Ancient Aliens!</title>
+    <title>Digging up Ancient Aliens! - Podcast</title>
     <meta
       name="description"
-      content="My name is Fredrik and I’m the host and creator of “Digging Up
-    Ancient Aliens”. I did four years of studying at the university of
-    Gotland in the field of archaeology"
+      content="A podcast where an archeologist watch Ancient Aliens"
     />
   </head>
 
   <body>
- <!--JavaScript Plugins-->
     <!--Bootstrap JS-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -110,162 +107,103 @@
     >
     <!-- End Cookie Consent by https://www.CookieConsent.com -->
 
-    <!--JavaScript END-->
-    <!--Navbar-->
-    <div class="container">
-      <header
-        class="
-          d-flex
-          flex-wrap
-          align-items-center
-          justify-content-center justify-content-md-between
-          py-3
-          mb-4
-          border-bottom
-        "
-      >
-        <a
-          href="/"
-          class="
-            d-flex
-            align-items-center
-            col-md-3
-            mb-2 mb-md-0
-            text-dark text-decoration-none
-          "
-        >
-          <svg
-            class="bi me-2"
-            width="40"
-            height="32"
-            role="img"
-            aria-label="Digging Up Ancient Aliens"
-          >
-            <use xlink:href="#DiggingUpAncientAlienss"></use>
-          </svg>
-        </a>
-
-        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-          <li>
-            <a href="index.html" class="nav-link px-2 link-secondary">Home</a>
-          </li>
-          <li>
-            <a href="episodes.html" class="nav-link px-2 link-dark">Episodes</a>
-          </li>
-          <li>
-            <a href="bonus.html" class="nav-link px-2 link-dark"
-              >Extra content</a
+    <section id="title">
+      <!-- class="banner-image"-->
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"
+              >Digging up Ancient Aliens!</a
             >
-          </li>
-          <li>
-            <a href="about.html" class="nav-link px-2 link-dark">About</a>
-          </li>
-          <li>
-            <a href="contact.html" class="nav-link px-2 link-dark">Contact</a>
-          </li>
-        </ul>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNavDropdown"
+            >
+              <ul class="TextBar navbar-nav">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="index.html"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Episodes
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="episodes.html">Archive</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="bonus.html"
+                        >Bonus Content</a
+                      >
+                    </li>
+                  </ul>
+                </li>
 
-        <div class="col-md-3 text-end">
-          <a
-            class="btn btn-outline-primary me-2"
-            href="https://www.facebook.com/Digging-up-Ancient-Aliens-108173641647111/"
-            target="_blank"
-            aria-label="Facebook"
-            ><i class="fab fa-facebook-f"></i
-          ></a>
-          <a
-            class="btn btn-outline-primary me-2"
-            href="https://www.instagram.com/digging_up_ancient_aliens/"
-            target="_blank"
-            aria-label="Instagram"
-            ><i class="fab fa-instagram"></i
-          ></a>
-          <a
-            class="btn btn-outline-primary me-2"
-            href="https://podcasts.apple.com/us/podcast/digging-up-ancient-aliens/id1593769356"
-            target="_blank"
-            aria-label="Apple Podcast"
-            ><i class="fas fa-podcast"></i>
-          </a>
-        </div>
-      </header>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="about.html"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- Main content - List first five episodes -->
+    <!--<section id="content">
+      <div class="text-center">
+        <img src="img/showad_1.jpg" class="img-fluid" alt="" />
+      </div>
+    </section>-->
+    <div
+      style="
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+        border-radius: 6px;
+        overflow: hidden;
+      "
+    >
+      <iframe
+        style="width: 100%; height: 200px"
+        frameborder="no"
+        scrolling="no"
+        seamless
+        src="https://player.captivate.fm/episode/dac53272-f014-4f4a-a1b3-ff80c78caee5"
+      ></iframe>
     </div>
-    <!--End NavBar-->
-        <!-- text -->
-      </div>
-    </section>
-    <section id="content">
-      <div class="container aboutText">
-        <div class="row">
-          <div class="col">
-            <img src="img/headshot.webp" class="headShot" alt="" />
-          </div>
-          <div class="col">
-            <h2>About</h2>
-            <p id="bodytext">
-              My name is Fredrik and I’m the host and creator of “Digging Up
-              Ancient Aliens”. I did four years of studying at the university of
-              Gotland in the field of archaeology (and a bit of osteology to).
-              But something I noticed rather quickly was the strange questions
-              you got from time to time as soon they learned that you studied
-              archaeology. It could be people you met at a party, on the streets
-              or even while walking the dog. They usually sounded something
-              like:
-            </p>
-            <figure>
-              <blockquote class="blockquote">
-                <p>
-                  “Oh, so you’re studying archaeology? That’s cool, I’ve read a
-                  lot of von Däniken so I know a thing or two.”
-                </p>
-              </blockquote>
-              <figcaption class="blockquote-footer">
-                <cite title="Source Title">Person at a party</cite>
-              </figcaption>
-            </figure>
-            <figure>
-              <blockquote class="blockquote">
-                <p>
-                  “Have you heard about the Bosnian pyramids? They are even
-                  older than the Egyptian are, it’s strange that not so many
-                  know about them.”
-                </p>
-              </blockquote>
-              <figcaption class="blockquote-footer">
-                <cite title="Source Title">Person at a dog walk</cite>
-              </figcaption>
-            </figure>
-            <p>
-              Most of these sorts of questions are easily brushed off but some
-              stuck and lead to me doing a bit of research. The first one I
-              think was the Bosnian pyramids and after a lot of research I did
-              realise that the claims where not true. I also learned about
-              History Channels infamous show Ancient Aliens then for the first
-              time.
-            </p>
-            <p>
-              For a long time, I’ve just been aware that it exists thinking it’s
-              probably wrong. But more and more I’ve felt a urge to actually
-              watch the shows and see what they actually say. What they get
-              wrong, why and how. But also, to see what do they get right, could
-              it teach us something about history or or current society.
-            </p>
-            <p>
-              So, I’m starting this adventure and hoping to be able to chare a
-              more interesting history than what’s presented in the show. I hope
-              you will come with and be a part of this journey to knowledge.
-            </p>
-            <p>All the best, <br />Fredrik</p>
-            <p>
-              (some more personal details: 195 cm tall, a DnD dungeon master,
-              love climbing and have two kids).
-            </p>
-          </div>
-          <!--<div class="Aboutpicture"></div>-->
-          <!--<div class="aboutText"></div>-->
-        </div>
-      </div>
-    </section>
+    <picture id="center-image">
+      <source media="(min-width:650px)" srcset="img/banner-large.webp" />
+      <source media="(min-width:465px)" srcset="img/small-banner.webp" />
+      <img
+        src="img/small-banner.webp"
+        alt="Premiere Poster 7 December"
+        style="width: 100%"
+      />
+    </picture>
     <!--Footer-->
     <div class="container">
       <footer
@@ -363,6 +301,11 @@
           <li class="nav-item">
             <a href="legal.html" class="nav-link px-2 text-muted">Legal</a>
           </li>
+          <!--<li class="nav-item">
+            <a href="#" id="open_preferences_center"
+              >Change your cookie preferences</a
+            >
+          </li>-->
         </ul>
       </footer>
     </div>

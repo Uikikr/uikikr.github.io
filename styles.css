@@ -21,7 +21,7 @@ h1 {
 .banner-image {
   background-image: url("img/Background-01.jpg");
   background-color: #cccccc;
-  /*height: 500px;*/
+  height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

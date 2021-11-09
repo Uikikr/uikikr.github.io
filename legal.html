@@ -47,76 +47,142 @@
   </head>
 
   <body>
+    <!--JavaScript Plugins-->
+    <!--Bootstrap JS-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <!-- Cookie Consent by https://www.CookieConsent.com -->
 
-    <section id="title">
-      <div class="container-fluid">
-        <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"
-              >Digging up Ancient Aliens!</a
-            >
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-              class="collapse navbar-collapse justify-content-end"
-              id="navbarNavDropdown"
-            >
-              <ul class="TextBar navbar-nav">
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="index.html"
-                    id="navbarDropdownMenuLink"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Episodes
-                  </a>
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
-                  >
-                    <li>
-                      <a class="dropdown-item" href="episodes.html">Archive</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="bonus.html"
-                        >Bonus Content</a
-                      >
-                    </li>
-                  </ul>
-                </li>
+    <script type="text/javascript" charset="UTF-8">
+      document.addEventListener("DOMContentLoaded", function () {
+        cookieconsent.run({
+          notice_banner_type: "simple",
+          consent_type: "express",
+          palette: "light",
+          language: "en",
+          page_load_consent_levels: ["strictly-necessary"],
+          notice_banner_reject_button_hide: false,
+          preferences_center_close_button_hide: false,
+          website_name: "Digging Up Ancient Aliens",
+          open_preferences_center_selector: "open_preferences_center",
+          website_privacy_policy_url:
+            "https://diggingupancientaliens.com/legal.html",
+        });
+      });
+    </script>
 
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="about.html"
-                    >About</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </section>
+    <!-- Google analytics -->
+    <script type="text/plain" cookie-consent="tracking">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-QK786ZE3TQ");
+    </script>
+    <!-- end of Google analytics-->
+
+    <noscript
+      >ePrivacy and GPDR Cookie Consent by
+      <a href="https://www.CookieConsent.com/" rel="nofollow noopener"
+        >Cookie Consent</a
+      ></noscript
+    >
+    <!-- End Cookie Consent by https://www.CookieConsent.com -->
+
+    <noscript
+      >ePrivacy and GPDR Cookie Consent by
+      <a href="https://www.CookieConsent.com/" rel="nofollow noopener"
+        >Cookie Consent</a
+      ></noscript
+    >
+    <!-- End Cookie Consent by https://www.CookieConsent.com -->
+
+    <!--JavaScript END-->
+    <!--Navbar-->
+    <div class="container">
+      <header
+        class="
+          d-flex
+          flex-wrap
+          align-items-center
+          justify-content-center justify-content-md-between
+          py-3
+          mb-4
+          border-bottom
+        "
+      >
+        <a
+          href="/"
+          class="
+            d-flex
+            align-items-center
+            col-md-3
+            mb-2 mb-md-0
+            text-dark text-decoration-none
+          "
+        >
+          <svg
+            class="bi me-2"
+            width="40"
+            height="32"
+            role="img"
+            aria-label="Digging Up Ancient Aliens"
+          >
+            <use xlink:href="#DiggingUpAncientAlienss"></use>
+          </svg>
+        </a>
+
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li>
+            <a href="index.html" class="nav-link px-2 link-secondary">Home</a>
+          </li>
+          <li>
+            <a href="episodes.html" class="nav-link px-2 link-dark">Episodes</a>
+          </li>
+          <li>
+            <a href="bonus.html" class="nav-link px-2 link-dark"
+              >Extra content</a
+            >
+          </li>
+          <li>
+            <a href="about.html" class="nav-link px-2 link-dark">About</a>
+          </li>
+          <li>
+            <a href="contact.html" class="nav-link px-2 link-dark">Contact</a>
+          </li>
+        </ul>
+
+        <div class="col-md-3 text-end">
+          <a
+            class="btn btn-outline-primary me-2"
+            href="https://www.facebook.com/Digging-up-Ancient-Aliens-108173641647111/"
+            target="_blank"
+            aria-label="Facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            class="btn btn-outline-primary me-2"
+            href="https://www.instagram.com/digging_up_ancient_aliens/"
+            target="_blank"
+            aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            class="btn btn-outline-primary me-2"
+            href="https://podcasts.apple.com/us/podcast/digging-up-ancient-aliens/id1593769356"
+            target="_blank"
+            aria-label="Apple Podcast"
+            ><i class="fas fa-podcast"></i>
+          </a>
+        </div>
+      </header>
+    </div>
+    <!--End NavBar-->
     <!-- Title -->
     <section id="content">
       <div class="container contactText">
