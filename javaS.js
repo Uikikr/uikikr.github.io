@@ -52,9 +52,8 @@
           <a href="merch.html" class="nav-link px-2 link-dark">Shop</a>
         </li>
         <li>
-        <script async src="https://cse.google.com/cse.js?cx=23cf43263d9f14271">
-        </script>
-        <div class="gcse-searchbox-only"></div>
+
+        
         </li>
       </ul>
 
