@@ -48,9 +48,23 @@
         <li>
           <a href="contact.html" class="nav-link px-2 link-dark">Contact</a>
         </li>
-        <li>
-          <a href="merch.html" class="nav-link px-2 link-dark">Shop</a>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle px-2 link-dark"
+            data-bs-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-expanded="false"
+            >Support the show</a
+          >
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="support.html">Members</a></li>
+            <li>
+            <li><a class="dropdown-item" href="merch.html">Shop</a></li>
+
+          </ul>
         </li>
+
         <li>
 
         
