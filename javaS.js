@@ -60,7 +60,7 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="support.html">Members</a></li>
             <li>
-            <li><a class="dropdown-item" href="merch.html">Shop</a></li>
+            <li><a class="dropdown-item" href="store.html">Shop</a></li>
 
           </ul>
         </li>
