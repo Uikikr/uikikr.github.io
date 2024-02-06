@@ -225,17 +225,6 @@
       </div>
       <div class="col">
         <a
-          href="https://www.stitcher.com/podcast/digging-up-ancient-aliens"
-          target="_blank"
-          ><img
-            src="img/p_Stitcher.png"
-            alt="Digging up ancient aliens at stitcher"
-            width="150px"
-            height="38px"
-        /></a>
-      </div>
-      <div class="col">
-        <a
           title="Listen to Digging Up Ancient Aliens on RadioPublic"
           href="https://radiopublic.com/digging-up-ancient-aliens-WomoQm"
           target="_blank"
