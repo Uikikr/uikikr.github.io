@@ -79,3 +79,13 @@ h1 {
 .contactText {
   padding: 0 45% 0 45%;
 }
+
+.breakable-link {
+  /* Break words if needed */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  /* Ensures the container takes full width to show possible break points */
+  width: 100%;
+  margin: 10px 0;
+}
